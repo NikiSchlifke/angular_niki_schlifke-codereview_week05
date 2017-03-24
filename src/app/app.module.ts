@@ -4,17 +4,25 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import {AngularFire, AngularFireModule} from 'angularfire2';
+import {firebaseConfig} from '../environments/firebase.config';
+import { ItemComponent } from './item/item.component';
+import { PageComponent } from './page/page.component';
+import {ItemConfig} from './config';
 
 @NgModule({
   declarations: [
-    AppComponent
-  ],
+    AppComponent,
+    ItemComponent,
+    PageComponent],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AngularFireModule.initializeApp(firebaseConfig)
+
   ],
-  providers: [],
+  providers: [ItemConfig],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

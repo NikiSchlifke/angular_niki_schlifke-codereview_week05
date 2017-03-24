@@ -5,7 +5,7 @@
     <p class="card-text"><small>{{description}}</small></p>
   </div>
   <div class="card-block">
-    <h5 class="card-text text-right">{{price}}</h5>
+    <h5 class="card-text text-right" [ngClass]="priceClasses">{{price}}</h5>
   </div>
   <div class="card-block">
     <button type="button" class="btn btn-labeled btn-block btn-success">ADD TO CART</button>

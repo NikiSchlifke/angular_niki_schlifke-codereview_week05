@@ -59,12 +59,19 @@ export class ItemComponent implements OnInit {
 
 
   public get price(): string {
-    return `${this.item.config.currencySymbol} ${String(this.item.price)}`;
+    return `${this.item.config.currencySymbol} ${String(this.item.price.toFixed(2))}`;
   }
 
 
   public get imageURL(): string {
     return `${this.item.config.imagePath}${this.item.imageURL}`;
+  }
+
+  public get priceClasses(): string {
+    if (this.item.price > this.item.config.expensivePrice) {
+      return 'text-danger';
+    }
+    return '';
   }
 
   ngOnInit() {

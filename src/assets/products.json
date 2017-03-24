@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "ASUS ROG Strix GeForce GTX 1080 Ti OC",
+    "description": "1708MHz (OC Mode) • Memory: 11GB GDDR5X, 1387MHz, 352bit, 488GB/s • Shader Units/TMUs/ROPs: 3584/224/88 • computing power: 12243GFLOPS (Single), 383GFLOPS (Double) • Manufacturing process: 16nm • Power consumption: 250W (TDP), not specified (idle) • DirectX: 12.0 (Feature-Level 12-1) • OpenGL: 4.5 • OpenCL: 1.2 • Vulkan: 1.0 • Shader model: 5.0 • Interface: PCIe 3.0 x16 • Total height: triple-slot • Cooling: 3x Axial-fan (90mm) • Connectors: DVI, 2x HDMI 2.0b, 2x DisplayPort 1.4 • external Power supply: 2x 8-Pin PCIe • Dimensions: 298x164x52mm • Special features: H.265 encode/decode, NVIDIA G-Sync, NVIDIA VR-Ready, NVIDIA 2-Way SLI (HB-Bridge), HDCP 2.2, Zero-Fan mode, Backplate, fan control (2x 4-Pin), LED lighting (RGB), 1x RGB-Header, base tact overclocked (+114MHz), Boost-tact overclocked (+126MHz) • Warranty: three years (handling by merchant) • Note: OC Mode unlockable via GPU Tweak II. Factory default clock: 1569MHz/​1683MHz (Gaming Mode)",
+    "price": 869.00,
+    "imageThumbUrl": "1587607.jpg"
+  },
+  {
+    "id": 2,
+    "name": "E-Twow booster E-Scooter black",
+    "description": "Colours: black • Battery: Li-bottom, 33V, 243Wh (6.5Ah) • Engine output: 500W • Range: up to 35km • Charging time: 2h • Max. Speed: 25km/h • Max. User weight: 110kg • Tyre diameter: 8\" • Weight: 10.80kg • Special features: foldable, LED lighting, battery status indicator",
+    "price": 884.98,
+    "imageThumbUrl": "1577918.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Lenovo ThinkPad X1 carbon G5 black",
+    "description": "CPU: Intel Core i5-7200U, 2x 2.50GHz • RAM: 8GB DDR3L (1x 8GB, 0 Slots) • HDD: not available • SSD: 256GB M.2 SATA/AHCI (2280/M-Key Slot, NVMe-support) • Optical drive: not available • Graphics: Intel HD Graphics 620 (IGP), 1x HDMI • Display: 14\", 1920x1080, non-glare, IPS • Connectors: 2x USB-A 3.0, 2x Thunderbolt 3 • Wireless:     WLAN 802.11a/​b/​g/​n/​ac, Bluetooth 4.1 • Card Readers: microSD • Webcam: 0.9 megapixels • Operating System: Windows 10 Pro 64bit • Battery: Li-Polymer, 3 cells, 57Wh, 15.5h operational time • Weight: 1.13kg • Special features: illuminated keyboard, Pointing Stick, Fingerprint-Reader, USB-C charging connector, MIL-STD-810G certified • Warranty: three years",
+    "price": 1658.99,
+    "imageThumbUrl": "1584550.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Apple AirPods white",
+    "description": "Design: earphones (Earbuds) • Type: non-wired • Principle: semi-open • Microphone: integrated • Interface: Bluetooth • Operating time: 5h (active) • Cable: no • Colour: white • Special features: Touch Control, voice control, full wireless",
+    "price": 156.97,
+    "imageThumbUrl": "1504599.jpg"
+  },
+  {
+    "id": 5,
+    "name": "DBPOWER BX-100",
+    "description": "Power: 11W • Display: no • Tuner: FM • Frequency range: 80Hz-20kHz • Connectors: AUX In, Bluetooth, USB • Power supply: Li-Ion battery (1000mAh), USB • Playback time: 8h • Dimensions (WxHxD): 240x61x55mm • Weight: 410g • Special features: alarm clock function",
+    "price": 31.99,
+    "imageThumbUrl": "1423061.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Bose QuietComfort 35 black",
+    "description": "Design: Headphones (Over-Ear) • Type: headband • Principle: closed • Microphone: integrated • Interface: Bluetooth, NFC • Operating time: 20h (active) • Cable: 1.2m, one-sided, exchangeable • Colour: black • Special features: active noise reduction, volume control",
+    "price": 314.99,
+    "imageThumbUrl": "1453021.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Amazon echo Dot",
+    "description": "Type: control unit Hardware • Standard: Bluetooth, WLAN 802.11a/​b/​g/​n • Function: control • Topology: star/​meshed • Dimensions: 84x84x38mm • Special features: voice control, cloud based, voice output",
+    "price": 57.99,
+    "imageThumbUrl": "1404594.jpg"
+  },
+  {
+    "id": 8,
+    "name": "",
+    "description": "",
+    "price": 0,
+    "imageThumbUrl": ""
+  },
+  {
+    "id": 9,
+    "name": "Weber Genesis II E-310 GBS black",
+    "description": "Design: grill cart • Grill area: 68x48cm (WxD) • Grill plate: enamelled cast iron-grill grate, warming rack • burner: 3, 3 high speed burner • Storage surfaces: 2 side shelves, cabinet for gas bottles, 6 cutlery hook • Features: grease drip tray, 4 wheels, electronic ignition, base frame • Dimensions (WxHxD): 830x660x810mm",
+    "price": 826.00,
+    "imageThumbUrl": "1558196.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Makita DHP453RYLJ cordless combi drill",
+    "description": "Battery: 18V, 1.5Ah, Li-Ion • Idle speed: 0-400/​0-1300rpm • Drilling capacity: steel 13mm, wood 36mm, stone 13mm • Idle blows: 0-6000/​0-19000bpm • Torque: 27/​42Nm soft/​hard, 16+1 stages • Tool fixture: 1.5-13mm keyless chuck • Special features: forward/​reverse operation, multiple speed, adjustable torque control, speed regulation, blow regulation, Softgrip • Weight: 1.70kg • Product content: MAKPAC2, charger DC18RC, 2 Batteries BL1815N, cordless lamp",
+    "price": 174.82,
+    "imageThumbUrl": "1175120.jpg"
+  }
+
+]

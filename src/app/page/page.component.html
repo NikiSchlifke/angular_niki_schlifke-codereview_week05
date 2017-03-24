@@ -1,0 +1,5 @@
+<div class="card-columns">
+  <div *ngFor="let i of items | async">
+    <app-item [item]="createItem(i)"></app-item>
+  </div>
+</div>

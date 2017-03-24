@@ -1,0 +1,4 @@
+/* Fix bootstrap alpha4 display issue */
+.card-columns {
+  display: inline-block;
+}

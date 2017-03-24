@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { ItemConfig } from '../config';
+import {Component, Input, OnInit} from '@angular/core';
+import {ItemConfig} from '../config';
 
-interface ItemData {
+export interface ItemData {
   id: number;
   name: string;
   description: string;
@@ -9,10 +9,11 @@ interface ItemData {
   imageURL: string;
 }
 
-class Item {
+export class Item {
   get config(): ItemConfig {
     return this._config;
   }
+
   public id: number;
   public name: string;
   public description: string;
@@ -26,6 +27,7 @@ class Item {
     this.description = data.description;
     this.imageURL = data.imageURL;
     this.price = data.price;
+    console.log('item created');
 
   }
 }
@@ -36,8 +38,9 @@ class Item {
   styleUrls: ['./item.component.css']
 })
 export class ItemComponent implements OnInit {
-
-  constructor(public item: Item) {
+  @Input() public item: Item;
+  constructor() {
+    console.log('item component created');
   }
 
   public get id(): number {

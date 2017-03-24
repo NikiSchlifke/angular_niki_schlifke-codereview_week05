@@ -10,6 +10,6 @@ export class AppComponent {
   title = 'Product Catalog';
   items: FirebaseListObservable<any[]>;
   constructor(private af: AngularFire) {
-    this.items = af.database.list('/');
+    this.items = af.database.list('/items');
   }
 }
